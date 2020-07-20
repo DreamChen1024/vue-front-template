@@ -1,0 +1,7 @@
+@function vw($px) {
+  @return ($px/7.5) + vw;
+}
+
+@function rem($px) {
+  @return ($px/75) + rem
+}
